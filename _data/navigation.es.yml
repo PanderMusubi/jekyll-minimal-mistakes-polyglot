@@ -1,0 +1,6 @@
+main:
+  - title: "Página principal"
+    url: "/es/"
+  - title: "Acerca de"
+    url: "/es/about/"
+

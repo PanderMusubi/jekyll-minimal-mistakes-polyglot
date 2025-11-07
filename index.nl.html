@@ -1,0 +1,17 @@
+---
+layout: splash
+title: "Welkom"
+lang: nl
+permalink: /
+description: "Minimale test"
+---
+
+<h1>Welkom op mijn website</h1>
+<p>Dit is de hoofdpagina in het Nederlands.</p>
+<p><a href="{{ '/nl/about/' | relative_url }}">Over</a></p>
+
+{% for post in site.posts limit:5 %}
+  <h2><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
+  <p>{{ post.date | date: "%B %d, %Y" }}</p>
+{% endfor %}
+

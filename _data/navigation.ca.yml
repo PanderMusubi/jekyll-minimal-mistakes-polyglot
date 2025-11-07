@@ -1,0 +1,6 @@
+main:
+  - title: "Pàgina d'inici"
+    url: "/ca/"
+  - title: "Quant a"
+    url: "/ca/about/"
+

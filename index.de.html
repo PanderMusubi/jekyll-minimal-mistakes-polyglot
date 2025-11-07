@@ -1,0 +1,17 @@
+---
+layout: splash
+title: "Wilkommen"
+lang: de
+permalink: /
+description: "Minimaltest"
+---
+
+<h1>Willkommen auf meiner Website</h1>
+<p>Dies ist die Hauptseite auf Deutsch.</p>
+<p><a href="{{ '/de/about/' | relative_url }}">Über mich</a></p>
+
+{% for post in site.posts limit:5 %}
+  <h2><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
+  <p>{{ post.date | date: "%B %d, %Y" }}</p>
+{% endfor %}
+

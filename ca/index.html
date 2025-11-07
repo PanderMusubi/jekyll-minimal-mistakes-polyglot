@@ -1,0 +1,17 @@
+---
+layout: splash
+title: "Benvingut"
+lang: ca
+permalink: /
+description: "Prova mínima"
+---
+
+<h1>Benvingut al meu lloc</h1>
+<p>Aquesta és la pàgina principal en català.</p>
+<p><a href="{{ '/ca/about/' | relative_url }}">Sobre</a></p>
+
+{% for post in site.posts limit:5 %}
+  <h2><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
+  <p>{{ post.date | date: "%B %d, %Y" }}</p>
+{% endfor %}
+

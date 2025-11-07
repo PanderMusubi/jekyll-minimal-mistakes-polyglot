@@ -1,0 +1,18 @@
+title: "Minimal Mistakes with Polyglot"
+description: "Minimal test"
+url: "http://localhost:4000"
+baseurl: ""
+timezone: Europe/Madrid
+theme: "minimal-mistakes-jekyll"
+exclude:
+  - "README.md"
+  - "*.sh"
+  - "vendor"
+  - ".git*"
+
+plugins:
+  - jekyll-polyglot
+languages: ["en", "es", "ca", "de", "nl"]
+default_lang: "en"
+exclude_from_localization: ["assets", "feed.xml", "robots.txt", "sitemap.xml"]
+

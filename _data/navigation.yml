@@ -1,0 +1,6 @@
+main:
+  - title: "Homepage"
+    url: "/"
+  - title: "About"
+    url: "/about/"
+

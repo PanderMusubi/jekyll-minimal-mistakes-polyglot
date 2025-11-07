@@ -1,0 +1,16 @@
+---
+layout: splash
+title: "Welcome"
+lang: en
+permalink: /
+---
+
+<h1>Welcome to my site</h1>
+<p>This is the English homepage.</p>
+<p><a href="{{ '/about/' | relative_url }}">About</a></p>
+
+{% for post in site.posts limit:5 %}
+  <h2><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
+  <p>{{ post.date | date: "%B %d, %Y" }}</p>
+{% endfor %}
+
