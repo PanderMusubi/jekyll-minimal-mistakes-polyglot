@@ -70,7 +70,7 @@ Up to here, only default functionality was used. However, you will not get a pro
 1. `_layouts/default.html`
    1. `<html lang="` gets proper language code
    2. `{% include_cached masthead.html` caches per language
-   3. `{% include footer.html` is no longer cached (caching on language does not work if switching languages has to result in the same page in another language) (caching is possible with lang=lang and someting with canonical_url, but I that needs needs discussion if we want that and if it is beneficial.)
+   3. `{% include footer.html` is no longer cached (caching on language does not work if switching languages has to result in the same page in another language) (caching is possible with canonical_url perhaps, but I that needs needs discussion if we want that and if it is beneficial.)
 2. `_data/locales.yml`
    1. contains mappings from language to locale such as `en: en_US` which are needed for `og:locale`
    2. there are no duplicates, but the user can provide a file to override these if for example `en: en_GB` is needed
