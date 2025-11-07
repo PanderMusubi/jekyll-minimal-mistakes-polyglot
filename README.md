@@ -88,3 +88,6 @@ When a Polyglot plugin, setting or file is missing, the theme Minimal Mistakes w
 
 When this is bullet proof, I would like to make a pull request at Minimal Mistakes. As localization is not trivial and not directly supported by themes, these additions would make a big step forward for localized websites with Minimal Mistakes.
 
+## TODO
+
+Implement in _config.yml translated descriptions, instead of adding in each file.
