@@ -1,6 +1,6 @@
 # jekyll-minimal-mistakes-polyglot
 
-Minimal example for a [Jekyll](https://jekyllrb.com/) to get [Minimal Mistakes](https://mmistakes.github.io/minimal-mistakes/) theme with [https://polyglot.untra.io/](Polyglot) working.
+Minimal example for a [Jekyll](https://jekyllrb.com/) to get [Minimal Mistakes](https://mmistakes.github.io/minimal-mistakes/) theme with [Polyglot](https://polyglot.untra.io/) working.
 
 ## Test
 
